@@ -1,0 +1,147 @@
+{
+  "_build_pass": "1",
+  "_date": "2026-03-22",
+  "site": {
+    "business_name": "Lafayette Septic Service",
+    "domain": "lafayettesepticservice.com",
+    "niche": "Septic Tank Service",
+    "niche_slug": "septic-service",
+    "city": "Lafayette",
+    "state": "Louisiana",
+    "state_abbr": "LA",
+    "county": "Lafayette Parish",
+    "phone": "(337) 492-0960",
+    "phone_formatted": "(337) 492-0960",
+    "phone_digits": "3374920960",
+    "email": "contact@lafayettesepticservice.com",
+    "tagline": "Lafayette's Trusted Septic Service \u2014 Fast Pumping, Honest Pricing",
+    "web3forms_key": "0219881f-13e5-4175-b720-517b8d10c028"
+  },
+  "seo": {
+    "primary_keyword": "septic tank service lafayette la",
+    "search_volume": 60,
+    "cpc": 6.06,
+    "rental_tier": "$200/mo",
+    "meta_title": "Septic Tank Service in Lafayette, LA | Lafayette Septic Service",
+    "meta_description": "Professional septic tank service in Lafayette, LA. Licensed & insured. Free estimates. Call (337) 492-0960."
+  },
+  "design": {
+    "primary_color": "#2c5f2e",
+    "accent_color": "#f5a623",
+    "style": "professional_green",
+    "font_heading": "Space Grotesk",
+    "font_body": "DM Sans"
+  },
+  "trust_signals": {
+    "badge_1": "Licensed & Insured",
+    "badge_2": "Free Estimates",
+    "badge_3": "5-Star Rated",
+    "badge_4": "Same-Day Service"
+  },
+  "services": [
+    {
+      "slug": "septic-pumping",
+      "name": "Septic Pumping"
+    },
+    {
+      "slug": "septic-inspection",
+      "name": "Septic Inspection"
+    },
+    {
+      "slug": "septic-repair",
+      "name": "Septic Repair"
+    },
+    {
+      "slug": "drain-field-repair",
+      "name": "Drain Field Repair"
+    },
+    {
+      "slug": "septic-installation",
+      "name": "Septic Installation"
+    },
+    {
+      "slug": "grease-trap-cleaning",
+      "name": "Grease Trap Cleaning"
+    }
+  ],
+  "service_areas": [
+    "lafayette",
+    "broussard",
+    "youngsville",
+    "scott",
+    "carencro",
+    "duson",
+    "breaux-bridge",
+    "crowley",
+    "opelousas",
+    "new-iberia"
+  ],
+  "faqs": [
+    {
+      "q": "How often should I pump my septic tank in Lafayette, LA?",
+      "a": "Most Louisiana homes with a 1,000-gallon tank serving 2\u20134 people should pump every 3\u20135 years. High water table in Lafayette Parish can accelerate issues. We recommend an inspection every 2\u20133 years."
+    },
+    {
+      "q": "How much does septic pumping cost in Lafayette?",
+      "a": "Septic pumping in Lafayette typically costs $250\u2013$450 for a standard residential tank. Larger tanks or those requiring extra work run $400\u2013$700. We provide upfront pricing before starting."
+    },
+    {
+      "q": "What are signs my septic system needs service?",
+      "a": "Slow drains, sewage odors inside or outside, wet spots or lush grass over the drain field, and gurgling pipes are all warning signs. Call immediately \u2014 septic failures can contaminate groundwater."
+    },
+    {
+      "q": "Do you serve Broussard, Youngsville, and Scott?",
+      "a": "Yes \u2014 we serve all of Lafayette Parish and surrounding areas including Broussard, Youngsville, Scott, Carencro, Duson, Breaux Bridge, and into Iberia and St. Landry parishes."
+    },
+    {
+      "q": "Do you handle commercial grease traps?",
+      "a": "Yes \u2014 we service commercial grease traps and interceptors for restaurants, food service businesses, and commercial properties throughout the Lafayette area."
+    }
+  ],
+  "pages": {
+    "root": [
+      "index.html",
+      "about.html",
+      "contact.html",
+      "faq.html",
+      "thank-you.html",
+      "404.html",
+      "sitemap.xml",
+      "robots.txt",
+      "privacy-policy.html",
+      "terms-of-service.html"
+    ],
+    "services": [
+      "services/septic-pumping.html",
+      "services/septic-inspection.html",
+      "services/septic-repair.html",
+      "services/drain-field-repair.html",
+      "services/septic-installation.html",
+      "services/grease-trap-cleaning.html"
+    ],
+    "locations": [
+      "locations/lafayette.html",
+      "locations/broussard.html",
+      "locations/youngsville.html",
+      "locations/scott.html",
+      "locations/carencro.html",
+      "locations/duson.html",
+      "locations/breaux-bridge.html",
+      "locations/crowley.html",
+      "locations/opelousas.html",
+      "locations/new-iberia.html"
+    ]
+  },
+  "build": {
+    "github_repo": "lafayette-septic-service",
+    "github_org": "deme-cyber11",
+    "twilio_number": "(337) 492-0960",
+    "ga4_id": "G-D6ZBY16329",
+    "indexnow_key": "a3f7b2c9d4e1f8a5b6c3d0e7f4a1b8c5",
+    "started": "2026-03-22",
+    "completed": "",
+    "qa_passed": false,
+    "committed": false,
+    "domain_registered": false
+  }
+}
