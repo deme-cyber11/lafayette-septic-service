@@ -11,6 +11,7 @@ body {
   background: #fff;
   line-height: 1.6;
   overflow-x: hidden;
+    font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 { font-family: 'Space Grotesk', sans-serif; line-height: 1.2; color: #1a1a1a; }
 a { color: #2c5f2e; text-decoration: none; transition: color .2s; }
@@ -903,4 +904,28 @@ button, input, textarea, select { font: inherit; }
   .trust-badge { font-size: .85rem; }
   .areas-grid { grid-template-columns: 1fr; }
   .contact-form { padding: 24px; }
+}
+
+/* ── Mobile Tap Targets (M10/M11) ── */
+@media (max-width: 768px) {
+    .btn, a.btn, button.btn {
+        min-height: 48px;
+        padding: 14px 24px;
+        font-size: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a[href^="tel"] {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+    input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]),
+    select,
+    textarea {
+        min-height: 48px;
+        font-size: 16px !important;
+        padding: 12px 16px;
+    }
 }
