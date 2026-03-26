@@ -381,7 +381,12 @@ img{max-width:100%;display:block}
       </select>
       <label for="message">Message</label>
       <textarea id="message" name="message" placeholder="Tell us about your septic needs..."></textarea>
-      <button type="submit">Send Request</button>
+      
+                            <div class="form-group">
+                                <label for="address">Service Address *</label>
+                                <input type="text" id="address" name="address" required placeholder="123 Main St, City, State">
+                            </div>
+                            <button type="submit">Send Request</button>
     </form>
   </div>
 </section>
