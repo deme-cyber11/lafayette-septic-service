@@ -112,4 +112,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://bayoutecheseptic.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bayoutecheseptic.com/blog/how-much-does-septic-service-cost-lafayette.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
