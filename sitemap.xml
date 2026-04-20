@@ -11,11 +11,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bayoutecheseptic.com/about/taylor-boudreaux/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://bayoutecheseptic.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
