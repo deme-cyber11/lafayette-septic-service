@@ -1,114 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lafayettesepticservice.com/</loc>
+    <loc>https://bayoutecheseptic.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/about</loc>
+    <loc>https://bayoutecheseptic.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/contact</loc>
+    <loc>https://bayoutecheseptic.com/about/taylor-boudreaux/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bayoutecheseptic.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/faq</loc>
+    <loc>https://bayoutecheseptic.com/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/privacy-policy</loc>
+    <loc>https://bayoutecheseptic.com/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/terms-of-service</loc>
+    <loc>https://bayoutecheseptic.com/terms-of-service</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <!-- Service Pages -->
   <url>
-    <loc>https://lafayettesepticservice.com/services/septic-pumping</loc>
+    <loc>https://bayoutecheseptic.com/services/septic-pumping</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/services/septic-inspection</loc>
+    <loc>https://bayoutecheseptic.com/services/septic-inspection</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/services/septic-repair</loc>
+    <loc>https://bayoutecheseptic.com/services/septic-repair</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/services/drain-field-repair</loc>
+    <loc>https://bayoutecheseptic.com/services/drain-field-repair</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/services/septic-installation</loc>
+    <loc>https://bayoutecheseptic.com/services/septic-installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/services/grease-trap-cleaning</loc>
+    <loc>https://bayoutecheseptic.com/services/grease-trap-cleaning</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Location Pages -->
   <url>
-    <loc>https://lafayettesepticservice.com/locations/lafayette</loc>
+    <loc>https://bayoutecheseptic.com/locations/lafayette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/broussard</loc>
+    <loc>https://bayoutecheseptic.com/locations/broussard</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/youngsville</loc>
+    <loc>https://bayoutecheseptic.com/locations/youngsville</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/scott</loc>
+    <loc>https://bayoutecheseptic.com/locations/scott</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/carencro</loc>
+    <loc>https://bayoutecheseptic.com/locations/carencro</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/duson</loc>
+    <loc>https://bayoutecheseptic.com/locations/duson</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/breaux-bridge</loc>
+    <loc>https://bayoutecheseptic.com/locations/breaux-bridge</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/crowley</loc>
+    <loc>https://bayoutecheseptic.com/locations/crowley</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/opelousas</loc>
+    <loc>https://bayoutecheseptic.com/locations/opelousas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lafayettesepticservice.com/locations/new-iberia</loc>
+    <loc>https://bayoutecheseptic.com/locations/new-iberia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
