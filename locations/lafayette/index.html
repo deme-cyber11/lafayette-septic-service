@@ -208,10 +208,11 @@
         <p>Ready to schedule septic pumping, an inspection, or a repair at your Lafayette property? Fill out the form or give us a call. We respond quickly and provide honest, upfront pricing with no hidden fees.</p>
         <a href="tel:3374920960" class="cta-phone"><i class="ph ph-phone"></i> (337) 492-0960</a>
       </div>
-      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="0219881f-13e5-4175-b720-517b8d10c028">
+      <form class="contact-form" action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST">
+        <input type="hidden" name="from_name" value="Bayou Teche Septic Website">
         <input type="hidden" name="redirect" value="https://bayoutecheseptic.com/thank-you/">
-        <input type="hidden" name="subject" value="New Lead from Lafayette Location Page">
+        <input type="hidden" name="_subject" value="New Lead from Lafayette Location Page">
+        <input type="checkbox" name="botcheck" class="sr-only" style="display:none" tabindex="-1" autocomplete="off">
         <h3>Request a Free Estimate</h3>
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required placeholder="Your full name">
