@@ -1122,6 +1122,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   flex-direction: column;
 }
 .nav-mobile-sub a {
+  display: block;
   padding: 10px 4px;
   font-size: 0.93rem;
   color: var(--color-text-light);
