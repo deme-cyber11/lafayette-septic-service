@@ -1,0 +1,23 @@
+# Bayou Teche Septic
+
+> Professional septic tank service in Lafayette, LA. Licensed & insured. Free estimates.
+
+## About
+Professional septic tank service in Lafayette, LA. Licensed & insured. Free estimates.
+
+## Service Areas
+Lafayette, Broussard, Youngsville, Scott, Carencro, Duson, Breaux Bridge, Crowley, Opelousas, New Iberia.
+
+## Contact
+- Phone: (337) 492-0960
+- Email: contact@bayoutecheseptic.com
+- Website: https://bayoutecheseptic.com
+- Quote Request: https://lead-manager-api.irontigerdigital.workers.dev/lead
+
+## Key Pages
+- [Services](https://bayoutecheseptic.com/services/)
+- [FAQ](https://bayoutecheseptic.com/faq/)
+- [Contact](https://bayoutecheseptic.com/contact/)
+- [Get an Estimate](https://bayoutecheseptic.com/estimate/)
+
+_Last updated: 2026-04-25_
