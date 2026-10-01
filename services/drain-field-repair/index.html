@@ -52,309 +52,232 @@ gtag('config', 'G-D6ZBY16329');
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700;800;900&family=Source+Sans+3:wght@400;600;700&display=swap"><link rel="stylesheet" href="/css/modern.css?v=20261001">
 </head>
-<body>
-
-<!-- Header -->
-<header class="header">
-  <div class="header-inner">
-    <a href="../" class="logo">Bayou Teche Septic</a>
-    <nav class="nav">
-      <a href="../">Home</a>
-      <div class="nav-dropdown">
-        <a href="#">Services &#9662;</a>
-        <div class="nav-dropdown-menu">
-          <a href="/services/septic-pumping/">Septic Pumping</a>
-          <a href="/services/septic-inspection/">Septic Inspection</a>
-          <a href="/services/septic-repair/">Septic Repair</a>
-          <a href="/services/drain-field-repair/">Drain Field Repair</a>
-          <a href="/services/aerobic-system-repair/">Aerobic System Repair</a>
-          <a href="/services/septic-installation/">Septic Installation</a>
-          <a href="/services/grease-trap-cleaning/">Grease Trap Cleaning</a>
-        </div>
-      </div>
-      <a href="/about/">About</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/contact/">Contact</a>
-    </nav>
-    <a href="tel:3374920960" class="phone-btn"><i class="ph ph-phone"></i> (337) 492-0960</a>
-    <button class="hamburger" onclick="document.querySelector('.mobile-nav').classList.toggle('active')" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+<body class="dm dm-page"><header class="site-header">
+<div class="container">
+<div class="header-inner">
+<a class="logo" href="/"><span class="nav-logo-icon" style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:var(--color-accent,#e94560);border-radius:6px;font-weight:900;font-size:1.2rem;color:#fff;flex-shrink:0;margin-right:.5rem">BT</span>
+        Bayou Teche Septic
+      </a>
+<nav class="nav-desktop">
+<a href="/">Home</a>
+<div class="nav-dropdown">
+<a class="nav-dropdown-trigger" href="#" onclick="return false;">Services <i class="ph ph-caret-down"></i></a>
+<div class="nav-dropdown-menu">
+<a href="/services/septic-pumping/">Septic Pumping</a>
+<a href="/services/septic-inspection/">Septic Inspection</a>
+<a href="/services/septic-repair/">Septic Repair</a>
+<a href="/services/drain-field-repair/">Drain Field Repair</a>
+<a href="/services/aerobic-system-repair/">Aerobic System Repair</a>
+<a href="/services/septic-installation/">Septic Installation</a>
+<a href="/services/grease-trap-cleaning/">Grease Trap Cleaning</a>
+</div>
+</div>
+<a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+</nav>
+<a class="header-phone desktop-only" href="tel:3374920960">
+<i class="ph ph-phone"></i> (337) 492-0960
+      </a>
+<button aria-label="Toggle menu" class="nav-toggle" onclick="document.querySelector('.nav-mobile').classList.toggle('open'); this.querySelector('i').classList.toggle('ph-list'); this.querySelector('i').classList.toggle('ph-x');">
+<i class="ph ph-list"></i>
+</button>
+</div>
+</div>
 </header>
-
 <!-- Mobile Nav -->
-<div class="mobile-nav">
-  <a href="../">Home</a>
-  <a href="#">Services</a>
-  <div class="mobile-dropdown-items">
-    <a href="/services/septic-pumping/">Septic Pumping</a>
-    <a href="/services/septic-inspection/">Septic Inspection</a>
-    <a href="/services/septic-repair/">Septic Repair</a>
-    <a href="/services/drain-field-repair/">Drain Field Repair</a>
-    <a href="/services/aerobic-system-repair/">Aerobic System Repair</a>
-    <a href="/services/septic-installation/">Septic Installation</a>
-    <a href="/services/grease-trap-cleaning/">Grease Trap Cleaning</a>
-  </div>
-  <a href="/about/">About</a>
-  <a href="/faq.html">FAQ</a>
-  <a href="/contact/">Contact</a>
-  <a href="tel:3374920960" style="color:var(--primary);font-weight:700;">Call (337) 492-0960</a>
+<div class="nav-mobile">
+<a href="/">Home</a>
+<button class="mobile-sub-toggle" onclick="this.classList.toggle('active'); this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
+    Services <i class="ph ph-caret-down"></i>
+</button>
+<div class="nav-mobile-sub" style="display:none;">
+<a href="/services/septic-pumping/">Septic Pumping</a>
+<a href="/services/septic-inspection/">Septic Inspection</a>
+<a href="/services/septic-repair/">Septic Repair</a>
+<a href="/services/drain-field-repair/">Drain Field Repair</a>
+<a href="/services/aerobic-system-repair/">Aerobic System Repair</a>
+<a href="/services/septic-installation/">Septic Installation</a>
+<a href="/services/grease-trap-cleaning/">Grease Trap Cleaning</a>
 </div>
-
-<!-- Hero -->
-<section class="hero">
-  <div class="hero-content">
-    <div class="breadcrumb">
-      <a href="../">Home</a> <span>/</span>
-      <a href="../">Services</a> <span>/</span>
-      <span>Drain Field Repair</span>
-    </div>
-    <h1>Drain Field Repair in Lafayette, LA</h1>
-    <p>Soggy yards, foul odors, and slow drains often point to a failing drain field. Our team diagnoses drain field problems and delivers effective repair or restoration solutions built for Lafayette's challenging soil conditions.</p>
-<img src="/images/septic-drain-field-repair.jpg" alt="Excavated drain field trench during repair on a Lafayette Parish property with clay-heavy soil" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:24px 0;display:block;">
-
-  </div>
-</section>
-
-<!-- Service Description -->
-<section class="content-section">
-  <div class="container">
-    <h2>Drain Field Repair &amp; Restoration Services</h2>
-    <p>The drain field, also called a leach field or absorption field, is where the real work of your septic system happens. After wastewater leaves your septic tank, it flows into a network of perforated pipes buried in gravel-filled trenches. The surrounding soil filters and treats the effluent as it percolates downward, removing harmful bacteria and nutrients before they reach groundwater. When this process breaks down, you end up with untreated sewage surfacing in your yard, backing up into your home, or contaminating the water table beneath your property.</p>
-
-    <p>Drain field problems are especially common in Lafayette Parish because of the area's soil composition and water table levels. Much of the parish sits on clay-heavy soils that drain slowly even under ideal conditions. When these soils become saturated with fats, biological matter, or excess water, they can form a nearly impermeable layer called a biomat that blocks absorption entirely. Add in a water table that frequently rises to within a couple of feet of the surface during Louisiana's rainy seasons, and you have conditions that push drain fields to their limits.</p>
-
-    <p>Not every drain field problem requires a complete replacement. Depending on the cause and severity of the failure, we may be able to restore your existing field through targeted repair of broken distribution lines, correction of uneven flow caused by a tilted distribution box, aeration treatment to break down biomat buildup, or installation of supplemental drainage to address seasonal water table issues. Our goal is always to find the most cost-effective solution that returns your system to reliable operation.</p>
-
-    <p>When repair is not sufficient and a new drain field is necessary, we handle the entire process from soil testing and system design through permitting with Louisiana DHH and final installation. We evaluate the available space on your property, test soil percolation rates, and design a replacement field that meets current Louisiana sanitary code while working within the constraints of your specific lot. Every installation undergoes final inspection to verify compliance before we close the trenches.</p>
-  </div>
-</section>
-
-<!-- Signs of Drain Field Failure -->
-<section class="content-section">
-  <div class="container">
-    <h2>Signs Your Drain Field Needs Attention</h2>
-    <p>Drain field problems rarely appear overnight. Recognizing these warning signs early can save you from a costly full replacement.</p>
-
-    <ul class="features-list">
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Soggy or spongy ground</strong> over or near the drain field area, even during dry weather, indicates the soil is no longer absorbing effluent properly.</span></li>
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Sewage odors outdoors</strong> near the drain field or in your yard suggest that wastewater is not being treated and filtered through the soil as designed.</span></li>
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Unusually green or lush grass</strong> in patches over the drain field while surrounding lawn looks normal means effluent is surfacing and fertilizing the vegetation above.</span></li>
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Slow drains throughout the house</strong> that persist even after pumping the septic tank often point to a drain field that cannot accept effluent at the rate the household produces it.</span></li>
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Standing water or sewage</strong> pooling on the surface of your yard near the drain field area is a clear sign of drain field failure that requires immediate professional attention.</span></li>
-      <li><i class="ph ph-warning-circle"></i> <span><strong>Gurgling sounds in plumbing</strong> when toilets flush or water drains can indicate back-pressure from a saturated or clogged drain field reaching back into your home's plumbing system.</span></li>
-    </ul>
-  </div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="content-section">
-  <div class="container">
-    <h2>Why Choose Us for Drain Field Repair</h2>
-
-    <div class="benefits-grid">
-      <div class="benefit-card">
-        <i class="ph ph-plant"></i>
-        <h3>Local Soil Expertise</h3>
-        <p>Lafayette Parish soil conditions are unlike most other regions. Our team understands the clay content, percolation rates, and seasonal water table fluctuations that affect drain field performance throughout this area. This knowledge shapes every repair and design decision we make.</p>
-      </div>
-      <div class="benefit-card">
-        <i class="ph ph-hand-coins"></i>
-        <h3>Repair Before Replace</h3>
-        <p>A full drain field replacement can cost thousands of dollars. We always explore repair and restoration options first, and we are honest about when repair will work and when replacement is the better investment. You get a cost-effective solution, not an unnecessary upsell.</p>
-      </div>
-      <div class="benefit-card">
-        <i class="ph ph-stamp"></i>
-        <h3>Permitting &amp; Compliance</h3>
-        <p>Drain field work in Louisiana requires proper permitting through the Department of Health and Hospitals. We handle all permit applications, coordinate required inspections, and ensure your repaired or replacement system meets current state sanitary code requirements.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Service Areas -->
-<section class="content-section">
-  <div class="container">
-    <h2>Drain Field Repair Service Areas</h2>
-    <p>We serve homeowners throughout Lafayette Parish and surrounding communities with professional drain field diagnosis, repair, and replacement.</p>
-
-    <div class="areas-grid">
-      <a href="/locations/lafayette/" class="area-link"><i class="ph ph-map-pin"></i> Lafayette</a>
-      <a href="/locations/broussard/" class="area-link"><i class="ph ph-map-pin"></i> Broussard</a>
-      <a href="/locations/youngsville/" class="area-link"><i class="ph ph-map-pin"></i> Youngsville</a>
-      <a href="/locations/scott/" class="area-link"><i class="ph ph-map-pin"></i> Scott</a>
-      <a href="/locations/carencro/" class="area-link"><i class="ph ph-map-pin"></i> Carencro</a>
-      <a href="/locations/duson/" class="area-link"><i class="ph ph-map-pin"></i> Duson</a>
-      <a href="/locations/breaux-bridge/" class="area-link"><i class="ph ph-map-pin"></i> Breaux Bridge</a>
-      <a href="/locations/crowley/" class="area-link"><i class="ph ph-map-pin"></i> Crowley</a>
-      <a href="/locations/opelousas/" class="area-link"><i class="ph ph-map-pin"></i> Opelousas</a>
-      <a href="/locations/new-iberia/" class="area-link"><i class="ph ph-map-pin"></i> New Iberia</a>
-    </div>
-  </div>
-</section>
-
-<!-- CTA Section with Form -->
-<section class="cta-section">
-  <div class="cta-grid">
-    <div class="cta-quote">
-      <h2>Fix Your Drain Field Problems Today</h2>
-      <p>A failing drain field will not fix itself, and the longer you wait, the more expensive the solution becomes. Contact us today for a thorough evaluation and honest recommendations tailored to your property and budget.</p>
-      <a href="tel:3374920960" class="cta-phone">(337) 492-0960</a>
-    </div>
-    <div id="form-success" style="display:none;background:#ecfdf5;border:1.5px solid #10b981;border-radius:10px;padding:20px;color:#065f46;margin-bottom:16px" role="status" aria-live="polite"><strong>Thanks — we got your request.</strong><br>We'll reach out shortly. Need us sooner? Call <a href="tel:3374920960">(337) 492-0960</a>.</div>
-<div id="form-error" style="display:none;background:#fef2f2;border:1.5px solid #ef4444;border-radius:10px;padding:20px;color:#7f1d1d;margin-bottom:16px" role="alert" aria-live="assertive"></div>
-    <form class="contact-form" action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST" id="lead-form" data-success="form-success" data-error="form-error" data-strict="true" data-fallback-tel="(337) 492-0960">
-      <input type="hidden" name="site_domain" value="bayoutecheseptic.com">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
-      
-      <input type="hidden" name="_subject" value="New Drain Field Repair Inquiry from Website">
-      <input type="hidden" name="_redirect" value="https://bayoutecheseptic.com/services/drain-field-repair/#success">
-      
-      <h3>Get a Free Estimate</h3>
-      <div class="form-group">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name" maxlength="80">
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" required placeholder="(337) 492-0960" autocomplete="tel" inputmode="tel" maxlength="20" pattern="\+?1?[\s.\-]?\(?[0-9]{3}\)?[\s.\-]?[0-9]{3}[\s.\-]?[0-9]{4}" title="10-digit US phone number, e.g. (555) 123-4567">
-      </div>
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required placeholder="you@email.com" autocomplete="email" maxlength="120">
-      </div>
-      <div class="form-group">
-        <label for="service">Service Needed</label>
-        <select id="service" name="service" required>
-          <option value="Septic Pumping">Septic Pumping</option>
-          <option value="Septic Inspection">Septic Inspection</option>
-          <option value="Septic Repair">Septic Repair</option>
-          <option value="Drain Field Repair" selected>Drain Field Repair</option>
-          <option value="Septic Installation">Septic Installation</option>
-          <option value="Grease Trap Cleaning">Grease Trap Cleaning</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="timeline">How Soon Do You Need This?</label>
-        <select id="timeline" name="timeline" required><option value="" disabled selected>Select one…</option><option>Emergency — today</option><option>ASAP — within a few days</option><option>Within 2 weeks</option><option>Within 1 month</option><option>1–3 months</option><option>Flexible / gathering quotes</option></select>
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Describe the drain field issues you are experiencing..." required minlength="10" maxlength="2000"></textarea>
-      </div>
-      
-                            <div class="form-group">
-                                <label for="address">Service Address *</label>
-                                <input type="text" id="address" name="address" required placeholder="123 Main St, City, State" autocomplete="address-line1" maxlength="120">
-                            </div>
-                            <div class="form-group">
-        <label for="city">City</label>
-        <input type="text" id="city" name="city" required autocomplete="address-level2" maxlength="60">
-      </div>
-      <div class="form-group">
-        <label for="state">State</label>
-        <input onchange="this.value=this.value.trim()" type="text" id="state" name="state" autocomplete="address-level1" maxlength="20" pattern="[A-Za-z .]{2,20}" title="State — 2-letter code or full name">
-      </div>
-      <div class="form-group">
-        <label for="zip">ZIP Code</label>
-        <input type="text" id="zip" name="zip" required autocomplete="postal-code" inputmode="numeric" maxlength="10" pattern="[0-9]{5}(-[0-9]{4})?" title="5-digit ZIP">
-      </div>
-                            <button type="submit" class="submit-btn">Request Free Estimate</button>
-    </form>
-  </div>
-</section>
-
-<!-- Related Services -->
-<section class="content-section">
-  <div class="container">
-    <h2>Related Septic Services</h2>
-    <p>Drain field issues often connect to other parts of your septic system. We offer comprehensive services to address the full picture.</p>
-
-    <div class="related-grid">
-      <a href="/services/septic-pumping/" class="related-card">
-        <i class="ph ph-truck"></i>
-        <span>Septic Pumping</span>
-      </a>
-      <a href="/services/septic-inspection/" class="related-card">
-        <i class="ph ph-magnifying-glass"></i>
-        <span>Septic Inspection</span>
-      </a>
-      <a href="/services/septic-repair/" class="related-card">
-        <i class="ph ph-wrench"></i>
-        <span>Septic Repair</span>
-      </a>
-      <a href="#" class="related-card">
-        <i class="ph ph-house-line"></i>
-        <span>Septic Installation</span>
-      </a>
-      <a href="#" class="related-card">
-        <i class="ph ph-cooking-pot"></i>
-        <span>Grease Trap Cleaning</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="footer-grid">
-    <div>
-      <h4>Bayou Teche Septic</h4>
-      <p>Professional septic services for Lafayette Parish and surrounding communities. Licensed, insured, and committed to quality workmanship.</p>
-      <p style="margin-top:10px;">
-        <a href="tel:3374920960">(337) 492-0960</a><br>
-        <span>contact@bayoutecheseptic.com</span>
-      </p>
-    </div>
-    <div>
-      <h4>Quick Links</h4>
-      <ul class="footer-links">
-        <li><a href="../">Home</a></li>
-        <li><a href="/about/">About Us</a></li>
-        <li><a href="/faq.html">FAQ</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Our Services</h4>
-      <ul class="footer-links">
-        <li><a href="/services/septic-pumping/">Septic Pumping</a></li>
-        <li><a href="/services/septic-inspection/">Septic Inspection</a></li>
-        <li><a href="/services/septic-repair/">Septic Repair</a></li>
-        <li><a href="/services/drain-field-repair/">Drain Field Repair</a></li>
-        <li><a href="#">Septic Installation</a></li>
-        <li><a href="#">Grease Trap Cleaning</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Service Areas</h4>
-      <ul class="footer-links">
-        <li><a href="/locations/lafayette/">Lafayette</a></li>
-        <li><a href="/locations/broussard/">Broussard</a></li>
-        <li><a href="/locations/youngsville/">Youngsville</a></li>
-        <li><a href="#">Scott</a></li>
-        <li><a href="#">Carencro</a></li>
-        <li><a href="#">Duson</a></li>
-        <li><a href="#">Breaux Bridge</a></li>
-        <li><a href="#">Crowley</a></li>
-        <li><a href="#">Opelousas</a></li>
-        <li><a href="#">New Iberia</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 Bayou Teche Septic. All rights reserved. Licensed &amp; Insured.</p>
-  </div>
+<a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+<a href="tel:3374920960" style="color: var(--primary); font-weight: 700; margin-top: 16px; display: flex; align-items: center; gap: 8px;">
+<i class="ph ph-phone"></i> (337) 492-0960
+  </a>
+</div>
+<main id="main-content"><section class="dm-hero" style="--hero-img:url(/images/septic-drain-field-repair.jpg)"><div class="dm-wrap"><div class="breadcrumb">
+<a href="../">Home</a> <span>/</span>
+<a href="../">Services</a> <span>/</span>
+<span>Drain Field Repair</span>
+</div><h1>Drain Field Repair in Lafayette, LA</h1><p>Soggy yards, foul odors, and slow drains often point to a failing drain field. Our team diagnoses drain field problems and delivers effective repair or restoration solutions built for Lafayette's challenging soil conditions.</p><div class="dm-hero__actions"><a class="dm-btn" href="tel:+13374920960"><svg aria-hidden="true" class="dm-i" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <path clip-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z" fill-rule="evenodd"></path> </svg> Call (337) 492-0960</a><a class="dm-btn dm-btn--ghost" href="/contact/">Get a Free Estimate</a></div></div></section><section class="dm-band dm-band--light"><div class="dm-wrap"><div class="dm-split"><div class="dm-split__text"><h2>Drain Field Repair &amp; Restoration Services</h2><p>The drain field, also called a leach field or absorption field, is where the real work of your septic system happens. After wastewater leaves your septic tank, it flows into a network of perforated pipes buried in gravel-filled trenches. The surrounding soil filters and treats the effluent as it percolates downward, removing harmful bacteria and nutrients before they reach groundwater. When this process breaks down, you end up with untreated sewage surfacing in your yard, backing up into your home, or contaminating the water table beneath your property.</p><p>Drain field problems are especially common in Lafayette Parish because of the area's soil composition and water table levels. Much of the parish sits on clay-heavy soils that drain slowly even under ideal conditions. When these soils become saturated with fats, biological matter, or excess water, they can form a nearly impermeable layer called a biomat that blocks absorption entirely. Add in a water table that frequently rises to within a couple of feet of the surface during Louisiana's rainy seasons, and you have conditions that push drain fields to their limits.</p><p>Not every drain field problem requires a complete replacement. Depending on the cause and severity of the failure, we may be able to restore your existing field through targeted repair of broken distribution lines, correction of uneven flow caused by a tilted distribution box, aeration treatment to break down biomat buildup, or installation of supplemental drainage to address seasonal water table issues. Our goal is always to find the most cost-effective solution that returns your system to reliable operation.</p><p>When repair is not sufficient and a new drain field is necessary, we handle the entire process from soil testing and system design through permitting with Louisiana DHH and final installation. We evaluate the available space on your property, test soil percolation rates, and design a replacement field that meets current Louisiana sanitary code while working within the constraints of your specific lot. Every installation undergoes final inspection to verify compliance before we close the trenches.</p></div><figure class="dm-split__media"><img alt="Saturated drain field in a Lafayette yard" height="1100" loading="lazy" src="/images/septic-system-failure.jpg" width="900"/></figure></div></div></section><section class="dm-band dm-band--soft"><div class="dm-wrap"><h2>Signs Your Drain Field Needs Attention</h2><p>Drain field problems rarely appear overnight. Recognizing these warning signs early can save you from a costly full replacement.</p><ul class="features-list">
+<li><i class="ph ph-warning-circle"></i> <span><strong>Soggy or spongy ground</strong> over or near the drain field area, even during dry weather, indicates the soil is no longer absorbing effluent properly.</span></li>
+<li><i class="ph ph-warning-circle"></i> <span><strong>Sewage odors outdoors</strong> near the drain field or in your yard suggest that wastewater is not being treated and filtered through the soil as designed.</span></li>
+<li><i class="ph ph-warning-circle"></i> <span><strong>Unusually green or lush grass</strong> in patches over the drain field while surrounding lawn looks normal means effluent is surfacing and fertilizing the vegetation above.</span></li>
+<li><i class="ph ph-warning-circle"></i> <span><strong>Slow drains throughout the house</strong> that persist even after pumping the septic tank often point to a drain field that cannot accept effluent at the rate the household produces it.</span></li>
+<li><i class="ph ph-warning-circle"></i> <span><strong>Standing water or sewage</strong> pooling on the surface of your yard near the drain field area is a clear sign of drain field failure that requires immediate professional attention.</span></li>
+<li><i class="ph ph-warning-circle"></i> <span><strong>Gurgling sounds in plumbing</strong> when toilets flush or water drains can indicate back-pressure from a saturated or clogged drain field reaching back into your home's plumbing system.</span></li>
+</ul></div></section><section class="dm-band dm-band--light"><div class="dm-wrap"><div class="dm-split dm-split--rev"><div class="dm-split__text"><h2>Why Choose Us for Drain Field Repair</h2><div class="benefits-grid">
+<div class="benefit-card">
+<i class="ph ph-plant"></i>
+<h3>Local Soil Expertise</h3>
+<p>Lafayette Parish soil conditions are unlike most other regions. Our team understands the clay content, percolation rates, and seasonal water table fluctuations that affect drain field performance throughout this area. This knowledge shapes every repair and design decision we make.</p>
+</div>
+<div class="benefit-card">
+<i class="ph ph-hand-coins"></i>
+<h3>Repair Before Replace</h3>
+<p>A full drain field replacement can cost thousands of dollars. We always explore repair and restoration options first, and we are honest about when repair will work and when replacement is the better investment. You get a cost-effective solution, not an unnecessary upsell.</p>
+</div>
+<div class="benefit-card">
+<i class="ph ph-stamp"></i>
+<h3>Permitting &amp; Compliance</h3>
+<p>Drain field work in Louisiana requires proper permitting through the Department of Health and Hospitals. We handle all permit applications, coordinate required inspections, and ensure your repaired or replacement system meets current state sanitary code requirements.</p>
+</div>
+</div><h2>Drain Field Repair Service Areas</h2><p>We serve homeowners throughout Lafayette Parish and surrounding communities with professional drain field diagnosis, repair, and replacement.</p><div class="areas-grid">
+<a class="area-link" href="/locations/lafayette/"><i class="ph ph-map-pin"></i> Lafayette</a>
+<a class="area-link" href="/locations/broussard/"><i class="ph ph-map-pin"></i> Broussard</a>
+<a class="area-link" href="/locations/youngsville/"><i class="ph ph-map-pin"></i> Youngsville</a>
+<a class="area-link" href="/locations/scott/"><i class="ph ph-map-pin"></i> Scott</a>
+<a class="area-link" href="/locations/carencro/"><i class="ph ph-map-pin"></i> Carencro</a>
+<a class="area-link" href="/locations/duson/"><i class="ph ph-map-pin"></i> Duson</a>
+<a class="area-link" href="/locations/breaux-bridge/"><i class="ph ph-map-pin"></i> Breaux Bridge</a>
+<a class="area-link" href="/locations/crowley/"><i class="ph ph-map-pin"></i> Crowley</a>
+<a class="area-link" href="/locations/opelousas/"><i class="ph ph-map-pin"></i> Opelousas</a>
+<a class="area-link" href="/locations/new-iberia/"><i class="ph ph-map-pin"></i> New Iberia</a>
+</div><h2>Related Septic Services</h2><p>Drain field issues often connect to other parts of your septic system. We offer comprehensive services to address the full picture.</p><div class="related-grid">
+<a class="related-card" href="/services/septic-pumping/">
+<i class="ph ph-truck"></i>
+<span>Septic Pumping</span>
+</a>
+<a class="related-card" href="/services/septic-inspection/">
+<i class="ph ph-magnifying-glass"></i>
+<span>Septic Inspection</span>
+</a>
+<a class="related-card" href="/services/septic-repair/">
+<i class="ph ph-wrench"></i>
+<span>Septic Repair</span>
+</a>
+<a class="related-card" href="#">
+<i class="ph ph-house-line"></i>
+<span>Septic Installation</span>
+</a>
+<a class="related-card" href="#">
+<i class="ph ph-cooking-pot"></i>
+<span>Grease Trap Cleaning</span>
+</a>
+</div></div><figure class="dm-split__media"><img alt="Septic inspection in progress" height="1100" loading="lazy" src="/images/septic-inspection.jpg" width="900"/></figure></div></div></section><section class="dm-cta" style="--cta-img:url(/images/septic-team-truck.jpg)"><div class="dm-wrap">
+<div class="cta-grid">
+<div class="cta-quote">
+<h2>Fix Your Drain Field Problems Today</h2>
+<p>A failing drain field will not fix itself, and the longer you wait, the more expensive the solution becomes. Contact us today for a thorough evaluation and honest recommendations tailored to your property and budget.</p>
+<a class="cta-phone" href="tel:3374920960">(337) 492-0960</a>
+</div>
+<div aria-live="polite" id="form-success" role="status" style="display:none;background:#ecfdf5;border:1.5px solid #10b981;border-radius:10px;padding:20px;color:#065f46;margin-bottom:16px"><strong>Thanks — we got your request.</strong><br/>We'll reach out shortly. Need us sooner? Call <a href="tel:3374920960">(337) 492-0960</a>.</div>
+<div aria-live="assertive" id="form-error" role="alert" style="display:none;background:#fef2f2;border:1.5px solid #ef4444;border-radius:10px;padding:20px;color:#7f1d1d;margin-bottom:16px"></div>
+<form action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" class="contact-form" data-error="form-error" data-fallback-tel="(337) 492-0960" data-strict="true" data-success="form-success" id="lead-form" method="POST">
+<input name="site_domain" type="hidden" value="bayoutecheseptic.com"/>
+<input aria-hidden="true" autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
+<input name="_subject" type="hidden" value="New Drain Field Repair Inquiry from Website"/>
+<input name="_redirect" type="hidden" value="https://bayoutecheseptic.com/services/drain-field-repair/#success"/>
+<h3>Get a Free Estimate</h3>
+<div class="form-group">
+<label for="name">Full Name</label>
+<input autocomplete="name" id="name" maxlength="80" name="name" placeholder="Your name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="phone">Phone Number</label>
+<input autocomplete="tel" id="phone" inputmode="tel" maxlength="20" name="phone" pattern="\+?1?[\s.\-]?\(?[0-9]{3}\)?[\s.\-]?[0-9]{3}[\s.\-]?[0-9]{4}" placeholder="(337) 492-0960" required="" title="10-digit US phone number, e.g. (555) 123-4567" type="tel"/>
+</div>
+<div class="form-group">
+<label for="email">Email Address</label>
+<input autocomplete="email" id="email" maxlength="120" name="email" placeholder="you@email.com" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="service">Service Needed</label>
+<select id="service" name="service" required="">
+<option value="Septic Pumping">Septic Pumping</option>
+<option value="Septic Inspection">Septic Inspection</option>
+<option value="Septic Repair">Septic Repair</option>
+<option selected="" value="Drain Field Repair">Drain Field Repair</option>
+<option value="Septic Installation">Septic Installation</option>
+<option value="Grease Trap Cleaning">Grease Trap Cleaning</option>
+</select>
+</div>
+<div class="form-group">
+<label for="timeline">How Soon Do You Need This?</label>
+<select id="timeline" name="timeline" required=""><option disabled="" selected="" value="">Select one…</option><option>Emergency — today</option><option>ASAP — within a few days</option><option>Within 2 weeks</option><option>Within 1 month</option><option>1–3 months</option><option>Flexible / gathering quotes</option></select>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" maxlength="2000" minlength="10" name="message" placeholder="Describe the drain field issues you are experiencing..." required=""></textarea>
+</div>
+<div class="form-group">
+<label for="address">Service Address *</label>
+<input autocomplete="address-line1" id="address" maxlength="120" name="address" placeholder="123 Main St, City, State" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="city">City</label>
+<input autocomplete="address-level2" id="city" maxlength="60" name="city" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="state">State</label>
+<input autocomplete="address-level1" id="state" maxlength="20" name="state" onchange="this.value=this.value.trim()" pattern="[A-Za-z .]{2,20}" title="State — 2-letter code or full name" type="text"/>
+</div>
+<div class="form-group">
+<label for="zip">ZIP Code</label>
+<input autocomplete="postal-code" id="zip" inputmode="numeric" maxlength="10" name="zip" pattern="[0-9]{5}(-[0-9]{4})?" required="" title="5-digit ZIP" type="text"/>
+</div>
+<button class="submit-btn" type="submit">Request Free Estimate</button>
+</form>
+</div>
+</div></section></main><footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="/"><span class="nav-logo-icon" style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:var(--color-accent,#e94560);border-radius:6px;font-weight:900;font-size:1.2rem;color:#fff;flex-shrink:0;margin-right:.5rem">BT</span>
+          Bayou Teche Septic
+        </a>
+<p>Professional septic tank services in Lafayette, LA. Licensed, insured, and committed to honest pricing and quality workmanship across Lafayette Parish.</p>
+</div>
+<div class="footer-col">
+<h4>Quick Links</h4>
+<a href="/">Home</a>
+<a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms-of-service.html">Terms of Service</a>
+</div>
+<div class="footer-col">
+<h4>Services</h4>
+<a href="/services/septic-pumping/">Septic Pumping</a>
+<a href="/services/septic-inspection/">Septic Inspection</a>
+<a href="/services/septic-repair/">Septic Repair</a>
+<a href="/services/drain-field-repair/">Drain Field Repair</a>
+<a href="/services/aerobic-system-repair/">Aerobic System Repair</a>
+<a href="/services/septic-installation/">Septic Installation</a>
+<a href="/services/grease-trap-cleaning/">Grease Trap Cleaning</a>
+</div>
+<div class="footer-col">
+<h4>Service Areas</h4>
+<a href="/locations/lafayette/">Lafayette</a>
+<a href="/locations/broussard/">Broussard</a>
+<a href="/locations/youngsville/">Youngsville</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Bayou Teche Septic. All rights reserved. Licensed &amp; Insured.</p>
+<div class="footer-bottom-links">
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms-of-service.html">Terms of Service</a>
+</div>
+</div>
+</div>
 </footer>
-
-<!-- Mobile CTA Bar -->
 <div class="mobile-cta">
-  <a href="tel:3374920960"><i class="ph ph-phone"></i> Call Now</a>
-  <a href="/contact/"><i class="ph ph-clipboard"></i> Free Quote</a>
+<a href="tel:3374920960"><i class="ph ph-phone"></i> Call Now</a>
+<a href="/contact/"><i class="ph ph-clipboard"></i> Free Quote</a>
 </div>
-
-<script src="/js/form.js" defer></script>
+<script defer="" src="/js/form.js"></script>
 </body>
 </html>
