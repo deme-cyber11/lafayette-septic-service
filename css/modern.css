@@ -239,7 +239,7 @@ body.dm :is(.thankyou-section, .page-404) { min-height: 0 !important; padding: c
 @media (max-width: 640px) { body.dm :is(.thankyou-section, .page-404) { padding: 40px 0 48px; } body.dm .page-404 > .container { padding-top: 0 !important; padding-bottom: 0 !important; } }
 body.dm .page-404 .btn:not(.btn-primary), body.dm .page-404 a.btn-secondary { color: var(--ink); }
 /* CTA bands keep their warm photo look */
-body.dm .cta-section { background: linear-gradient(rgba(12,32,24,.84), rgba(12,32,24,.9)), url("/images/septic-team-truck.jpg") center 30% / cover no-repeat; }
+body.dm .cta-section { background: linear-gradient(rgba(12,32,24,.84), rgba(12,32,24,.9)), url("/images/septic-crew-truck.webp") center 30% / cover no-repeat; }
 body.dm .cta-section::before, body.dm .cta-section::after { display: none; }
 body.dm .cta-section :is(h2, h3) { color: #fff; }
 body.dm .cta-section p { color: rgba(255,255,255,.86); }
