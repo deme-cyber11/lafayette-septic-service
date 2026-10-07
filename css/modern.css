@@ -248,7 +248,7 @@ body.dm :is(.service-card, .why-card, .area-card, .tip-card) { border-radius: 16
 body.dm .dm-band .dm-wrap > h2 { font-family: var(--display); }
 /* blog index + posts (header.header template) */
 body.dm .blog-header { padding: clamp(64px, 8vw, 104px) 24px; text-align: left; color: #fff;
-  background: linear-gradient(100deg, var(--hero-a) 0%, var(--hero-b) 52%, var(--hero-c) 100%), url("/images/septic-pump-service.jpg") center / cover no-repeat; }
+  background: linear-gradient(100deg, var(--hero-a) 0%, var(--hero-b) 52%, var(--hero-c) 100%), url("/images/septic-pumping-truck.webp") center / cover no-repeat; }
 body.dm .blog-header > * { max-width: 1132px; margin-left: auto; margin-right: auto; }
 body.dm .blog-header h1 { color: #fff; font-size: clamp(2.1rem, 4.4vw, 3.3rem); }
 body.dm .blog-header p { color: rgba(255,255,255,.88); }
@@ -340,3 +340,10 @@ body.dm ul.features-list li > i { color: var(--accent); font-size: 1.25rem; marg
 body.dm ul.dm-chips a i.ph { color: var(--brand); }
 /* location pages: "Other Areas" skips the page's own town */
 body.dm-location .areas-grid .area-card.current { display: none; }
+
+/* pumping page: riser before and after, one yard */
+body.dm .ba-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 18px 0 26px; }
+body.dm .ba-pair figure { margin: 0; }
+body.dm .ba-pair img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; display: block; box-shadow: var(--shadow); }
+body.dm .ba-pair figcaption { font-size: .9rem; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+@media (max-width: 560px) { body.dm .ba-pair { grid-template-columns: 1fr; } }
